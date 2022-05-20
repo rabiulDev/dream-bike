@@ -1,24 +1,29 @@
 import React from 'react'
 import "./Container.css"
 import { useEffect, useState } from 'react';
+import Bike from '../Bike/Bike';
 
 
 const Container = () => {
 
   // BIKES DATA STORE//
-  const [dreamBike, setDreamBike] = useState([]);
+  const [dreamBikes, setDreamBikes] = useState([]);
 
   // FETCH THE BIKES DATA//
   useEffect(()=>{
     fetch("fakeData.json")
     .then(res => res.json())
-    .then(data => setDreamBike(data))
+    .then(data => setDreamBikes(data))
   },[])
 
   return (
     <div className='container'>
         <div className="bikes-container">
-            
+            <div className="bike-shocase">
+                {
+                  dreamBikes.map(bike => <Bike key={bike.id} bike= {bike}></Bike>)
+                }
+            </div>
         </div>
         <div className="cart-container">
 
