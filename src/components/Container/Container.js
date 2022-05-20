@@ -1,9 +1,10 @@
 import React from 'react'
+import "./Container.css"
 import { useEffect, useState } from 'react';
 
 
 const Container = () => {
-    
+
   // BIKES DATA STORE//
   const [dreamBike, setDreamBike] = useState([]);
 
@@ -15,8 +16,13 @@ const Container = () => {
   },[])
 
   return (
-    <div>
-        {dreamBike.length}
+    <div className='container'>
+        <div className="bikes-container">
+            
+        </div>
+        <div className="cart-container">
+
+        </div>
     </div>
   )
 }
