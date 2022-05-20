@@ -1,0 +1,79 @@
+[
+    {
+        "id": "1",
+        "name":"Yamaha FJR1300",
+        "price": "2000",
+        "img": "https://www.pngpix.com/wp-content/uploads/2016/07/PNGPIX-COM-Yamaha-FJR1300-Motorcycle-Bike-PNG-Image-250x180.png"
+
+    },
+
+    {
+        "id": "2",
+        "name": "Yamaha R6 Liquid Silver",
+        "price": "4000",
+        "img": "https://www.pngpix.com/wp-content/uploads/2016/07/PNGPIX-COM-Yamaha-R6-Liquid-Silver-Motorcycle-Bike-PNG-Image-250x187.png"
+    },
+
+    {
+        "id": "3",
+        "name": "Yamaha XVS1300",
+        "price": "3000",
+        "img": "https://www.pngpix.com/wp-content/uploads/2016/07/PNGPIX-COM-Yamaha-XVS1300-Motorcycle-Bike-PNG-Image-250x150.png"
+    },
+
+    {
+        "id": "4",
+        "name": "Yamaha R6S",
+        "price": "3500",
+        "img": "https://www.pngpix.com/wp-content/uploads/2016/07/PNGPIX-COM-Yamaha-R6S-Motorcycle-Bike-PNG-Image-250x193.png"
+    },
+
+    {
+        "id": "5",
+        "name": "Yamaha YZF R1 Red",
+        "price": "3200",
+        "img": "https://www.pngpix.com/wp-content/uploads/2016/07/PNGPIX-COM-Red-Yamaha-YZF-R1-Sport-Motorcycle-Bike-PNG-Image-250x194.png"
+    },
+
+    {
+        "id": "6",
+        "name": "Yamaha FZ1 Red",
+        "price": "2200",
+        "img": "https://www.pngpix.com/wp-content/uploads/2016/07/PNGPIX-COM-Red-Yamaha-FZ1-Motorcycle-Bike-PNG-Image-250x188.png"
+    },
+
+    {
+        "id": "7",
+        "name": "Yamaha YZF R6 Black",
+        "price": "3500",
+        "img": "https://www.pngpix.com/wp-content/uploads/2016/07/PNGPIX-COM-Black-Yamaha-YZF-R6-Sport-Motorcycle-Bike-PNG-Image-250x178.png"
+    },
+
+    {
+        "id": "8",
+        "name": "Yamaha YZF R1",
+        "price": "2800",
+        "img": "https://www.pngpix.com/wp-content/uploads/2016/07/PNGPIX-COM-Yamaha-YZF-R1-Sport-Motorcycle-Bike-PNG-Image-250x181.png"
+    },
+
+    {
+        "id": "9",
+        "name": "Yamaha FJR1300AE EU Matt Silver",
+        "price": "2900",
+        "img": "https://www.pngpix.com/wp-content/uploads/2016/07/PNGPIX-COM-Yamaha-FJR1300AE-EU-Matt-Silver-Motorcycle-Bike-PNG-Image-250x187.png"
+    },
+
+    {
+        "id": "10",
+        "name": "Yamaha YZF R6 White",
+        "price": "3000",
+        "img": "https://www.pngpix.com/wp-content/uploads/2016/07/PNGPIX-COM-White-Yamaha-YZF-R6-Sport-Motorcycle-Bike-PNG-Image-250x167.png"
+    },
+
+    {
+        "id": "11",
+        "name": "Yamaha R6 Black",
+        "price": "5000",
+        "img": "https://www.pngpix.com/wp-content/uploads/2016/07/PNGPIX-COM-Yamaha-R6-Black-Sport-Bike-PNG-Image-250x176.png"
+    }
+]
