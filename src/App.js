@@ -1,21 +1,10 @@
-import { useEffect, useState } from 'react';
 import './App.css';
+import Container from './components/Container/Container';
 
 function App() {
-  // BIKES DATA STORE//
-  const [dreamBike, setDreamBike] = useState([]);
-
-  // FETCH THE BIKES DATA//
-  useEffect(()=>{
-    fetch("fakeData.json")
-    .then(res => res.json())
-    .then(data => setDreamBike(data))
-  },[])
-
-
-  return (
+    return (
     <div className="App">
-        {dreamBike.length}
+        <Container></Container>
     </div>
   );
 }
