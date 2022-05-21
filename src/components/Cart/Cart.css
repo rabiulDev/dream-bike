@@ -1,0 +1,21 @@
+.added-bikes{
+    color: white;
+    text-align: center;
+
+}
+.added-items{
+    color: white;
+}
+
+.cart-btn{
+    display: block;
+    color: #2E1760;
+    font-weight: 700;
+    font-size: 18;
+    padding: 10px 15px;
+    margin: 0 auto;
+}
+
+.cart-btn:hover{
+    cursor: pointer;
+}
