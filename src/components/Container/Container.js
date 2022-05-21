@@ -19,6 +19,7 @@ const Container = () => {
   return (
     <div className='container'>
         <div className="bikes-container">
+            <h1 className='title'>Welcome to Your Dream Bikes World!!!!!!</h1>
             <div className="bike-shocase">
                 {
                   dreamBikes.map(bike => <Bike key={bike.id} bike= {bike}></Bike>)
@@ -26,7 +27,7 @@ const Container = () => {
             </div>
         </div>
         <div className="cart-container">
-
+              
         </div>
     </div>
   )

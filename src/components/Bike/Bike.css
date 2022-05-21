@@ -1,0 +1,24 @@
+.bike-container{
+    height: 350px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    position: relative;
+}
+.bike-container img{
+    display: block;
+    margin: 0 auto;
+}
+.btn{
+   border: none;
+   width: 100%;
+   padding: 15px 0;
+   border-radius: 0 0 8px 8px;
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   font-size: 17px;
+   font-weight: 700;
+   color: #2f3e46;
+}
