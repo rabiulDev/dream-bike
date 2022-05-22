@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import "./Container.css"
 import Bike from '../Bike/Bike';
 import Cart from '../Cart/Cart';
+import DreamBike from '../DreamBike/DreamBike';
 
 
 const Container = () => {
@@ -64,10 +65,12 @@ const Container = () => {
   //-------!!!!!!!!!!!!!!!!!!!!!!!!-------//
 
   // START HANDLE GET THE DREAM BIKES BUTTON//
+
   const hanleDreamBikeBtn = () => {
     if (addedBikes.length !== 0) {
       const index = getRandomNum(0, addedBikes.length - 1)
       setDreamBike(addedBikes[index])
+
 
     }
   }
@@ -76,12 +79,13 @@ const Container = () => {
 
   return (
     <div>
-      {
-        console.log(dreamBike)
-      }
+      <h1 className='title'>Welcome to Your Dream Bikes World!!!!!!</h1>
+
+      <DreamBike showDreamBike={dreamBike}></DreamBike>
+
       <div className='container'>
         <div className="bikes-container">
-          <h1 className='title'>Welcome to Your Dream Bikes World!!!!!!</h1>
+
           <div className="bike-shocase">
             {
               dreamBikes.map(bike => <Bike key={bike.id} bike={bike} addToCartButton={addToCartButton}></Bike>)

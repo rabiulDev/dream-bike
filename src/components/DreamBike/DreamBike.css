@@ -1,0 +1,24 @@
+.dream-bike{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.dream-bike img{
+    display: block;
+    margin: 0 auto;
+}
+
+.dream-bike h1{
+    margin-top: 10px;
+    color:blue;
+    font-size: 3rem;
+    font-weight: 900;
+
+}
