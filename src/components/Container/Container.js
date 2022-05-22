@@ -4,6 +4,7 @@ import "./Container.css"
 import Bike from '../Bike/Bike';
 import Cart from '../Cart/Cart';
 import DreamBike from '../DreamBike/DreamBike';
+import QuestionAns from '../QuestionAns/QuestionAns';
 
 
 const Container = () => {
@@ -91,6 +92,7 @@ const Container = () => {
               dreamBikes.map(bike => <Bike key={bike.id} bike={bike} addToCartButton={addToCartButton}></Bike>)
             }
           </div>
+          <QuestionAns></QuestionAns>
         </div>
         <div className="cart-container">
           <div className="position-relative">

@@ -1,0 +1,13 @@
+.qns-container{
+    max-width: 90%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 8px;
+    padding: 30px 70px;
+    margin: 50px auto;
+}
+.qns-container h4{
+    margin-bottom: 5px;
+}
+.how-react-work{
+    margin-bottom: 40px;
+}
