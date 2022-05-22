@@ -18,9 +18,6 @@ const Container = () => {
   // THE DREAM BIKE STORE//
   const [dreamBike, setDreamBike] = useState([]);
 
-  // CONDITION VALUE FOR CART ITEMS//
-  const [moreThanFour, setMoreThanFour] = useState(false)
-
   // FETCH THE BIKES DATA//
   useEffect(() => {
     fetch("fakeData.json")
@@ -44,9 +41,7 @@ const Container = () => {
         }
       }
     }
-    else {
-      setMoreThanFour(true)
-    }
+    
   }
   //END HANDLE ADD TO CART BUTTON//
 
@@ -78,6 +73,12 @@ const Container = () => {
 
   // END HANDLE GET THE DREAM BIKES BUTTON//
 
+  // HANDLE CHOSE AGAIN BUTTON START//
+    const choseAgain = () => {
+      setAddedBikes([])
+    }
+  // HANDLE CHOSE AGAIN BUTTON END//
+
   return (
     <div>
       <h1 className='title'>Welcome to Your Dream Bikes World!!!!!!</h1>
@@ -97,7 +98,8 @@ const Container = () => {
         <div className="cart-container">
           <div className="position-relative">
             <div className="cart">
-              <Cart addedBikes={addedBikes} moreThanFour={moreThanFour} hanleDreamBikeBtn={hanleDreamBikeBtn} />
+              <Cart addedBikes={addedBikes} choseAgain={choseAgain} hanleDreamBikeBtn={hanleDreamBikeBtn} />
+              
             </div>
           </div>
 

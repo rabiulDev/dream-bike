@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Cart.css"
-const Cart = ({ addedBikes, moreThanFour, hanleDreamBikeBtn}) => {
+const Cart = ({ addedBikes, choseAgain, hanleDreamBikeBtn}) => {
         
     return (
         <div>
@@ -10,10 +10,11 @@ const Cart = ({ addedBikes, moreThanFour, hanleDreamBikeBtn}) => {
                    addedBikes && addedBikes.map(addedBike => <li key={addedBike.id}>{addedBike.name}</li>)
                     
                 }
-                {moreThanFour && <h5>You can only add 4 items.</h5> }
+                
             </ul>
 
             <button className='cart-btn' onClick= {hanleDreamBikeBtn}>Get Dream Bikes</button>
+            <button className='cart-btn' onClick= {choseAgain}>Chose Again</button>
         </div>
     )
 }
